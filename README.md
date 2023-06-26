@@ -1,2 +1,11 @@
 # MEDIS_ATTACK
-This repository is an implementation of the paper "Exploring the feasibility of adversarial attacks on medical image segmentation" published in  Multimedia Tools and Applications.
+## 1. Preface
+This repository provides an implementation of the paper "Exploring the feasibility of adversarial attacks on medical image segmentation", published in  Multimedia Tools and Applications. 
+
+You can contact me at <shukla.sneha825@gmail.com> to resolve your queries regarding our paper and implementation. 
+
+If you find this repository helpful for your project or research, please cite this paper 
+
+## 2. Overview
+Recent advancements in Deep Learning (DL) based medical image segmentation models have led to tremendous growth in healthcare applications. However, DL models can be easily compromised by intelligently engineered adversarial attacks, which pose a serious threat to the security of life-critical healthcare applications. Thus, understanding the generation of adversarial attacks is essential for designing robust and reliable DL-based healthcare models. To this end, we explore adversarial attacks for medical image segmentation models in this paper. The adversarial attacks are performed by backpropagating the loss function, which minimises the error metrics. However, most of the medical image segmentation models utilise several non-differential loss functions, which obstruct the attack. Consequently, the attacks are performed by surrogate loss functions that are differentiable approximations of the original loss function. However, we observe that different surrogate loss functions behave differently for the same input. Hence, choosing the best surrogate loss function for a successful attack is crucial. Furthermore, these DL models contain non-differentiable layers that obfuscate gradients and obstruct the attack. To mitigate these issues, we introduce an attack, MedIS (Medical Image Segmentation), which utilises parallel fusion for selecting the best surrogate loss function with the least added perturbation. Moreover, our proposed MedIS attack also provides guidelines to tackle non-differentiable layers by replacing them with differentiable approximations. The experiments conducted on several well-known medical image segmentation models employing multiple surrogate loss functions reveal that MedIS outperforms existing attacks on medical image segmentation by providing a higher attack success rate.
+
