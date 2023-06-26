@@ -44,7 +44,7 @@ Recent advancements in Deep Learning (DL) based medical image segmentation model
 5. Set the path and all variables in `MainFile_SkinLesion_targeted.ipynb` and `MainFile_SkinLesion_Untargeted.ipynb` and run it. This gives us the attack results calculated up to 10 steps.
 6. Set the path of the CSV file (created in step 4) in `FinalResult_untargeted.ipynb` and `FinalResult_targeted.ipynb` and run it to get the final attack success rate and average distortion with and without parallel fusion.
 
-## 4. Citation:
+## 4. Citation
 If you find this repository helpful for your project or research, please cite this paper as,
 ```
 @article{Shukla2023Exploring,
@@ -60,5 +60,5 @@ If you find this repository helpful for your project or research, please cite th
 }
 ```
 
-## 5. Contact:
+## 5. Contact
 For any query, kindly mail us at <shukla.sneha825@gmail.com>.
