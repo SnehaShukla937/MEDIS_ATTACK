@@ -4,8 +4,7 @@
 
 * You can contact me at <shukla.sneha825@gmail.com> to resolve your queries regarding our paper and implementation. 
 
-* If you find this repository helpful for your project or research, please cite this paper as,
-  >Shukla, S., Gupta, A.K. & Gupta, P. Exploring the feasibility of adversarial attacks on medical image segmentation. Multimed Tools Appl (2023). https://doi.org/10.1007/s11042-023-15575-8
+* If you find this repository helpful for your project or research, please cite this paper as
 
 
 ## 2. Overview
@@ -48,8 +47,19 @@ Recent advancements in Deep Learning (DL) based medical image segmentation model
 
 ## 4. Citation:
 If you find this repository helpful for your project or research, please cite this paper as,
-'''
-'''
+```
+@article{Shukla2023Exploring,
+    title        = {Exploring the feasibility of adversarial attacks on medical image segmentation},
+    author       = {Shukla, Sneha and Gupta, Anup Kumar and Gupta, Puneet},
+    year         = 2023,
+    month        = {Jun},
+    day          = 22,
+    journal      = {Multimedia Tools and Applications},
+    doi          = {10.1007/s11042-023-15575-8},
+    issn         = {1573-7721},
+    url          = {https://doi.org/10.1007/s11042-023-15575-8}
+}
+```
 
 ## 5. Contact:
 For any query, kindly mail us at <shukla.sneha825@gmail.com>.
