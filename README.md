@@ -2,7 +2,7 @@
 ## 1. Preface
 * This repository provides an implementation of the paper [Exploring the feasibility of adversarial attacks on medical image segmentation](https://link.springer.com/article/10.1007/s11042-023-15575-8), published in [Multimedia Tools and Applications](https://www.springer.com/journal/11042). 
 
-* You can contact me at <shukla.sneha825@gmail.com> to resolve your queries regarding our paper and implementation. 
+* You can contact us at <shukla.sneha825@gmail.com> to resolve your queries regarding our paper and implementation. 
 
 * If you find this repository helpful for your project or research, please cite this paper as [Citation](https://github.com/SnehaShukla937/MEDIS_ATTACK/tree/main#4-citation).
 
