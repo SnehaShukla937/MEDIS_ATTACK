@@ -1,4 +1,4 @@
-# *MEDIS* (*MED*ical *I*mage *S*egmentation) ATTACK
+# *MedIS* (*Med*ical *I*mage *S*egmentation) ATTACK
 ## 1. Preface
 * This repository provides an implementation of the paper [Exploring the feasibility of adversarial attacks on medical image segmentation](https://link.springer.com/article/10.1007/s11042-023-15575-8), published in [Multimedia Tools and Applications](https://www.springer.com/journal/11042). 
 
