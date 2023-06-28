@@ -62,3 +62,6 @@ If you find this repository helpful for your project or research, please cite th
 
 ## 5. Contact
 For any query, kindly mail us at <shukla.sneha825@gmail.com>.
+
+## 6. Reference
+1. Fan, D. P., Ji, G. P., Zhou, T., Chen, G., Fu, H., Shen, J., & Shao, L. (2020). Pranet: Parallel reverse attention network for polyp segmentation. In Medical Image Computing and Computer Assisted Intervention–MICCAI 2020: 23rd International Conference, Lima, Peru, October 4–8, 2020, Proceedings, Part VI 23 (pp. 263-273). Springer International Publishing.
