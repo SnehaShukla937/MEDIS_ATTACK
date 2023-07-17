@@ -17,14 +17,14 @@ Recent advancements in Deep Learning (DL) based medical image segmentation model
 
 ## 3. Steps for implementation
 ### For Polyp Segmentation:
-1. Clone the repository <https://github.com/DengPingFan/PraNet.git> and modify the `utils/dataloader.py` file by commenting out the `transforms.Resize((self.testsize, self.testsize))` **(line 92)** and `transforms.Normalize([0.485, 0.456, 0.406],[0.229, 0.224, 0.225])` **(line 94 & 95)**  inside the `class test_dataset`.
+1. Clone the repository <https://github.com/DengPingFan/PraNet.git> [1] and modify the `utils/dataloader.py` file by commenting out the `transforms.Resize((self.testsize, self.testsize))` **(line 92)** and `transforms.Normalize([0.485, 0.456, 0.406],[0.229, 0.224, 0.225])` **(line 94 & 95)**  inside the `class test_dataset`.
 2. Download the dataset and pre-trained weight from  <https://github.com/DengPingFan/PraNet.git>.
 3. Set the path in `Target2_makeCSV.ipynb` and run it to make a CSV file for each dataset that contains the mean IOU of each image to another image.
 4. Set the path and all variables in `MainFile_Polyp_targeted.ipynb` and `MainFile_Polyp_Untargeted.ipynb` and run it. This gives us the attack results calculated up to 10 steps.
 5. Set the path of the CSV file (created in step 4) in `FinalResult_untargeted.ipynb` and `FinalResult_targeted.ipynb` and run it to get the final attack success rate and average distortion with and without parallel fusion.
 
 ### For Skin-Lesion Segmentation:
-1. Clone the repository <https://github.com/DengPingFan/PraNet.git> and modify the `utils/dataloader.py` file by-
+1. Clone the repository <https://github.com/DengPingFan/PraNet.git> [1] and modify the `utils/dataloader.py` file by-
    * Commenting out the `transforms.Resize((self.testsize, self.testsize))` **(line 92)** and `transforms.Normalize([0.485, 0.456, 0.406],[0.229, 0.224, 0.225])` **(line 94 & 95)** inside the `class test_dataset`.
    * Adding a new method inside the `class test_dataset`.
        ```
